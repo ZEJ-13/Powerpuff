@@ -1,0 +1,40 @@
+/* emojiBankReact.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #FF8329;
+  color: #333;
+}
+
+title {
+  color: #041168;
+}
+
+h1 {
+  color: #041168;
+}
+
+#emojiBank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.emoji-radio {
+  display: none;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+label:hover {
+  transform: scale(1.2);
+}
+
+h2 {
+  margin-top: 20px;
+}
